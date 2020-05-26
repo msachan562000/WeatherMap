@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    color: #dae1e7;
+    background: #142850;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.input {
+    text-align: center;
+    margin: 100px auto;
+    color: white;
+}
+
+input[type="submit"] {
+    padding: 15px 30px;
+    background: #27496d;
+    border: none;
+    border-radius: 3px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input input[type="text"] {
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #00909e;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.card {
+    width: 50%;
+    background: #f6d743;
+    height: 40vh;
+    margin: 50px auto;
+    color: black;
+    border-radius: 2px;
+}
+
+.close {
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.card h1 {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    padding-top: auto;
+    margin: 40px 0;
+    font-size: 20px;
+}
